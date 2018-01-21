@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Giphtastic</title>
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap CDN and CSS-->
+  <link rel='stylesheet' type='text/css' href='assets/css/reset.css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+  <link rel='stylesheet' type='text/css' href='assets/css/style.css'>
+  <link href="https://fonts.googleapis.com/css?family=Risque" rel="stylesheet">
+
+  <!-- Firebase Reference not needed but left it here-->
+  <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Brighten up your day with GIPHY!</h1>
+
+    <!-- Rendered Buttons will get Dumped Here  -->
+    <div id="buttons-view"></div>
+
+    <form id="gif-form">
+      <input type="text" id="gif-input">
+
+      <!-- Button triggers new category to be added -->
+      <input id="add-gif" type="submit" value="Add Destination">
+    </form>
+
+    <!-- gifs will Get Dumped Dere -->
+    <div class = "card">
+      <!-- this css allows wrapping -->
+      <div class="card-body gifcard" id="gif-view"></div>
+    </div>
+
+
+  </div>
+
+<script type='text/javascript' src='assets/javascript/app.js'></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+body{
+  background: linear-gradient(to right, beige, green);
+  font-family: 'Risque', cursive;
+  text-align: left;
+  background-image: url("../images/background.png");
+  /*from www.patterncooler.com*/
+}
+h1{
+	font-size: 60px;
+}
+button,
+    div,
+    form,
+    input {
+      margin: 10px;
+    }
+.gifcard{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.gif-btn{
+	font-size: 24px;
+}
+img {
+   padding:1px;
+   border:1px solid #021a40;
+}
